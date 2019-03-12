@@ -39,7 +39,7 @@ document.onkeyup = function(event){
         document.getElementById("wins").textContent = winsJava;
         document.getElementById("losses").textContent = lossesJava;
         document.getElementById("left").textContent = leftJava;
-        document.getElementById("gs").textContent = event.key;
+        document.getElementById("gs").textContent = "";
         console.log("this is the number of wins " + winsJava);
         console.log("this is the number of losses " + lossesJava);
         console.log("this is letter the program chose " + letter);
@@ -67,7 +67,7 @@ document.onkeyup = function(event){
         document.getElementById("wins").textContent = winsJava;
         document.getElementById("losses").textContent = lossesJava;
         document.getElementById("left").textContent = leftJava;
-        document.getElementById("gs").textContent = event.key;
+        document.getElementById("gs").textContent = "";
         console.log("this is the number of wins " + winsJava);
         console.log("this is the number of losses " + lossesJava);
         console.log("this is letter the program chose " + letter);
